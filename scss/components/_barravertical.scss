@@ -1,0 +1,107 @@
+/*----------------LINEA VERTICAL----------------------*/
+.v-line{
+    border-left: thick inset $bg-principal;    
+    height: 50px;
+    width: 50px;
+    justify-self: flex-start;
+    margin-left: 75%;
+    
+    
+    
+    @media screen and (max-width:576px) {
+      display: none;
+      
+    }
+  } 
+
+  .v-line-sobremi{
+    border-left: thick inset $bg-principal;    
+    height: 50px;
+    width: 50px;
+    justify-self: flex-end;
+    margin-left: 30%;
+    
+    
+    
+    @media screen and (max-width:576px) {
+      display: none;
+      
+    }
+    
+  } 
+
+  .v-line_Contacto{
+    border-left: thick inset $bg-principal;    
+    height: 50px;
+    width: 50px;
+    justify-items: flex-end;
+    margin-left: 36%;
+    
+    
+    @media screen and (max-width:576px) {
+      display: none;
+      
+    }
+  } 
+
+  .v-line_Portfolio{
+    border-left: thick inset $bg-principal;    
+    height: 50px;
+    width: 50px;
+    justify-items: flex-end;
+    margin-left: 75%;
+    
+    
+    @media screen and (max-width:576px) {
+      display: none;
+      
+    }
+
+  }
+    
+        
+    
+
+.nav_ul{
+    
+    margin-left: 5%;
+    align-content: start;
+    &_vertical{
+        list-style-type: none;
+        padding: 40px;
+
+    }
+}
+  
+
+     /* ---------------animacion redes sociales --------------------- */
+ 
+  
+     .icon:hover i {
+        animation: shake .25s;
+        }
+      
+        @keyframes shake {
+            10% {
+                transform: rotate(15deg);
+            }
+        
+            20% {
+                transform: rotate(-15deg);
+            }
+        
+            30% {
+                transform: rotate(15deg);
+            }
+        
+            40% {
+                transform: rotate(-15deg);
+            }
+        }
+
+.nav_vertical_portfo{
+    margin-left: 5%;
+    align-content: start;
+    
+}
+            

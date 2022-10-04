@@ -1,0 +1,23 @@
+.navbar_propio{
+    background-color: $bg-principal;
+    
+    &_tipo{
+        font-family: $font-principal;
+        color: $tipo-color;
+        font-size: 28px;
+        padding: 60px;
+    }
+}
+
+
+.sobremi_imagen{
+    align-items: center;
+}
+h3{
+    font-family: $font-sec;
+    font-size: 28px;
+    color: $tipo-color;
+    text-align:center;
+    padding-top: 200px;
+}
+
