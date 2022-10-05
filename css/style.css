@@ -275,5 +275,10 @@ footer h2 {
   color: antiquewhite;
   padding-top: 40px;
 }
+@media screen and (max-width: 778px) {
+  .h1_index {
+    font-size: 85px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
