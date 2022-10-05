@@ -23,7 +23,7 @@
     
     
     
-    @media screen and (max-width:576px) {
+    @media screen and (max-width:768px) {
       display: none;
       
     }
@@ -35,7 +35,7 @@
     height: 50px;
     width: 50px;
     justify-items: flex-end;
-    margin-left: 36%;
+    margin-left: 41%;
     
     
     @media screen and (max-width:576px) {
@@ -45,18 +45,8 @@
   } 
 
   .v-line_Portfolio{
-    border-left: thick inset $bg-principal;    
-    height: 50px;
-    width: 50px;
-    justify-items: flex-end;
-    margin-left: 75%;
-    
-    
-    @media screen and (max-width:576px) {
-      display: none;
-      
-    }
-
+    display: none;
+  
   }
     
         
@@ -69,7 +59,7 @@
     &_vertical{
         list-style-type: none;
         padding: 40px;
-
+    
     }
 }
   
@@ -103,5 +93,20 @@
     margin-left: 5%;
     align-content: start;
     
+}
+
+.barra_mediagrid{
+  @media screen and (max-width:778px) {
+    display: inline;
+    width: 778px;
+    margin-left: 0%;
+   padding: 40px;
+  @media screen and (max-width:650px) {
+    display: inline;
+    width: 568px;
+    padding: 30px;
+  }
+    
+  }
 }
             

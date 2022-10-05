@@ -12,6 +12,10 @@
 
 .sobremi_imagen{
     align-items: center;
+    @media screen and (max-width:768px) {
+        place-items: center;
+        
+    }
 }
 h3{
     font-family: $font-sec;
@@ -19,5 +23,12 @@ h3{
     color: $tipo-color;
     text-align:center;
     padding-top: 200px;
+
+    @media screen and (max-width:768px) {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 5px;
+        
+    }
 }
 

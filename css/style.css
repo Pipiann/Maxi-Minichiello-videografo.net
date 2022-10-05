@@ -19,7 +19,7 @@
   justify-self: flex-end;
   margin-left: 30%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .v-line-sobremi {
     display: none;
   }
@@ -30,7 +30,7 @@
   height: 50px;
   width: 50px;
   justify-items: flex-end;
-  margin-left: 36%;
+  margin-left: 41%;
 }
 @media screen and (max-width: 576px) {
   .v-line_Contacto {
@@ -39,20 +39,11 @@
 }
 
 .v-line_Portfolio {
-  border-left: thick inset #d8f3dc;
-  height: 50px;
-  width: 50px;
-  justify-items: flex-end;
-  margin-left: 75%;
-}
-@media screen and (max-width: 576px) {
-  .v-line_Portfolio {
-    display: none;
-  }
+  display: none;
 }
 
 .nav_ul {
-  margin-left: 5%;
+  margin-left: 6%;
   align-content: start;
 }
 .nav_ul_vertical {
@@ -84,6 +75,22 @@
   align-content: start;
 }
 
+@media screen and (max-width: 778px) {
+  .barra_mediagrid {
+    display: inline;
+    width: 778px;
+    margin-left: 0%;
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 778px) and (max-width: 650px) {
+  .barra_mediagrid {
+    display: inline;
+    width: 568px;
+    padding: 30px;
+  }
+}
+
 .navbar_propio {
   background-color: #d8f3dc;
 }
@@ -97,6 +104,11 @@
 .sobremi_imagen {
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .sobremi_imagen {
+    place-items: center;
+  }
+}
 
 h3 {
   font-family: "Libre Franklin", sans-serif;
@@ -105,13 +117,47 @@ h3 {
   text-align: center;
   padding-top: 200px;
 }
+@media screen and (max-width: 768px) {
+  h3 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
+  }
+}
 
 .content1_contacto {
   align-items: center;
+  background-color: #52b788;
+  padding: 20PX;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.btn_propio {
+  background-color: #1b4332;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 25px;
+  color: antiquewhite;
+  border: #1b4332;
+  padding: 5px;
+}
+.btn_propio:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  transition: all 1s ease;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn_propio:hover:before {
+  width: 100%;
 }
 
 .portfo_1 {
+  justify-self: center;
   justify-items: center;
+  align-items: center;
   padding-left: 100px;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -120,6 +166,10 @@ h3 {
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #edf6f9;
 }
 
 /*--------------------GRID---------------------------*/
@@ -132,6 +182,14 @@ h3 {
   column-gap: 10px;
   grid-template-areas: "header header header" "vline content1 content2" "nav_ver content1 content2" "footer footer footer";
 }
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 5, 1fr;
+    row-gap: 5px;
+    grid-template-areas: " header" "nav_ver " "content1" "content2" "footer";
+  }
+}
 .grid_header {
   background-color: #d8f3dc;
   grid-area: header;
@@ -143,14 +201,39 @@ h3 {
 .grid_content1 {
   grid-area: content1;
 }
+@media screen and (max-width: 1023px) {
+  .grid_content1 {
+    place-items: center;
+    padding: 50px;
+  }
+}
 .grid_content2 {
   grid-area: content2;
+}
+@media screen and (max-width: 1023px) {
+  .grid_content2 {
+    place-items: center;
+    padding: 50px;
+  }
 }
 .grid_nav_ver {
   grid-area: nav_ver;
 }
 .grid_footer {
   grid-area: footer;
+}
+@media screen and (max-width: 778px) {
+  .grid_footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .grid_footer {
+    bottom: 0px;
+    width: 100%;
+  }
 }
 
 footer {
@@ -162,6 +245,12 @@ footer h2 {
   color: #2d3436;
   padding-top: 1rem;
   padding-right: 3rem;
+}
+@media screen and (max-width: 778px) {
+  footer h2 {
+    font-size: 18px;
+    text-align: center;
+  }
 }
 
 .footerLink {

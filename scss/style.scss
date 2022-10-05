@@ -8,6 +8,9 @@
     padding: 0;
 }
 
+body{
+    background-color: #edf6f9;
+}
 /*--------------------GRID---------------------------*/
 
 .grid{
@@ -22,6 +25,18 @@
     "vline content1 content2"
     "nav_ver content1 content2"
     "footer footer footer";
+    @media screen and (max-width:768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (5,1fr);
+        row-gap: 5px;
+        grid-template-areas: 
+        " header"
+        "nav_ver "
+        "content1"
+        "content2"
+        "footer";
+        
+    }
 
     &_header{
         background-color:$bg-principal;
@@ -37,21 +52,43 @@
     &_content1{
         
         grid-area: content1;
+        @media screen and (max-width:1023px) {
+            place-items: center;
+            padding: 50px;
+            
+        }
               
 
     }
     &_content2{
         
         grid-area: content2;
+        @media screen and (max-width:1023px) {
+            place-items: center;
+            padding: 50px;
+            
+        }
     }
     &_nav_ver{
         
         grid-area: nav_ver;
         
+        
     }
     &_footer{
         
         grid-area: footer;
+        @media screen and (max-width:778px) {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            
+        }
+        @media screen and (max-width:576px) {
+            bottom: 0px;
+            width: 100%;
+            
+        }
 
     }
 }
@@ -65,6 +102,10 @@ footer{
         color: #2d3436;
         padding-top: 1rem;
         padding-right: 3rem;
+        @media screen and (max-width:778px) {
+            font-size: 18px;
+            text-align: center;
+        }
        
     }
 
