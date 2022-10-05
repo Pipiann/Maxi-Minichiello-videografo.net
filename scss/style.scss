@@ -132,4 +132,8 @@ footer{
     text-align: right;
     color: antiquewhite;
     padding-top: 40px;
+    @media screen and (max-width:778px) {
+        font-size: 100px;
+        
+    }
 }
