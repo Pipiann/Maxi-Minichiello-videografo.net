@@ -16,7 +16,7 @@ body{
 .grid{
     display: grid;
     justify-items: stretch;
-    grid-template-columns: 0.3fr,1fr,1fr;
+    grid-template-columns: 0.1fr,1fr,1fr;
     grid-template-rows: 0,3fr,1fr,1fr,1fr;
     row-gap: 10px;
     column-gap: 10px;
