@@ -139,11 +139,12 @@ footer{
     padding-top: 40px;
     @media screen and (max-width:778px) {
         font-size: 85px;
-        
     }
-    @media screen and (max-widht:480px) {
-        font-size: 35px;
-        
+    @media screen and (max-width:480px) {
+        font-size: 1rem;
     }
+    
+        
+    
 }
 

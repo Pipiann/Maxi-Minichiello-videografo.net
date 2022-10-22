@@ -83,11 +83,11 @@
     padding: 40px;
   }
 }
-@media screen and (max-width: 778px) and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .barra_mediagrid {
     display: inline;
-    width: 568px;
-    padding: 30px;
+    width: 320px;
+    padding: 20px;
   }
 }
 
@@ -303,9 +303,9 @@ footer h2 {
     font-size: 85px;
   }
 }
-@media screen and (max-widht: 480px) {
+@media screen and (max-width: 480px) {
   .h1_index {
-    font-size: 35px;
+    font-size: 1rem;
   }
 }
 

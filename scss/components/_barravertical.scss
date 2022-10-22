@@ -101,12 +101,13 @@
     width: 778px;
     margin-left: 0%;
    padding: 40px;
-  @media screen and (max-width:650px) {
+  }
+  @media screen and (max-width:480px) {
     display: inline;
-    width: 568px;
-    padding: 30px;
+    width: 320px;
+    padding: 20px;
   }
     
-  }
+  
 }
             

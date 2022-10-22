@@ -83,11 +83,11 @@
     padding: 40px;
   }
 }
-@media screen and (max-width: 778px) and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .barra_mediagrid {
     display: inline;
-    width: 568px;
-    padding: 30px;
+    width: 320px;
+    padding: 20px;
   }
 }
 
@@ -99,6 +99,16 @@
   color: #2d3436;
   font-size: 28px;
   padding: 60px;
+}
+@media screen and (max-width: 768px) {
+  .navbar_propio {
+    width: 810px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar_propio {
+    width: fit-content;
+  }
 }
 
 .sobremi_imagen {
@@ -163,6 +173,13 @@ h3 {
   padding-top: 30px;
 }
 
+@media screen and (max-width: 460px) {
+  .iframe_MediaQuerie {
+    width: 40%;
+    height: 70%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -188,6 +205,12 @@ body {
     grid-template-rows: repeat 5, 1fr;
     row-gap: 5px;
     grid-template-areas: " header" "nav_ver " "content1" "content2" "footer";
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: 0.5fr;
+    row-gap: 10%;
   }
 }
 .grid_header {
@@ -278,6 +301,11 @@ footer h2 {
 @media screen and (max-width: 778px) {
   .h1_index {
     font-size: 85px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .h1_index {
+    font-size: 1rem;
   }
 }
 
