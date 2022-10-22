@@ -12,17 +12,17 @@
                 
     }
     @media screen and (max-width: 480px){
-        width: fit-content;
+        width: 480px;
     }
 }
 
-// .img_Logo{
-//     @media screen and (max-width:768px) {
-//         width:30%;
-//         height:30%;
+.img_Logo{
+    @media screen and (max-width:480px) {
+        width:50%;
+        height:50%;
         
-//     }
-// }
+    }
+}
 
 
 .sobremi_imagen{

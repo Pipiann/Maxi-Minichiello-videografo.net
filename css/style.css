@@ -107,7 +107,14 @@
 }
 @media screen and (max-width: 480px) {
   .navbar_propio {
-    width: fit-content;
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .img_Logo {
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -316,7 +323,7 @@ footer h2 {
 }
 @media screen and (max-width: 480px) {
   .h1_index {
-    font-size: 1rem;
+    font-size: 4rem;
   }
 }
 
