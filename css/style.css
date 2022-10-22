@@ -102,19 +102,12 @@
 }
 @media screen and (max-width: 768px) {
   .navbar_propio {
-    width: 768px;
+    width: 750px;
   }
 }
 @media screen and (max-width: 480px) {
   .navbar_propio {
     width: fit-content;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .img_Logo {
-    width: 30%;
-    height: 30%;
   }
 }
 
