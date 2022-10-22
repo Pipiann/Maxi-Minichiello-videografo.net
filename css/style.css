@@ -6,7 +6,7 @@
   justify-self: flex-start;
   margin-left: 75%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .v-line {
     display: none;
   }
@@ -32,7 +32,7 @@
   justify-items: flex-end;
   margin-left: 41%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .v-line_Contacto {
     display: none;
   }
@@ -113,8 +113,8 @@
 
 @media screen and (max-width: 768px) {
   .img_Logo {
-    width: 30%;
-    height: 30%;
+    width: 10%;
+    height: 10%;
   }
 }
 
