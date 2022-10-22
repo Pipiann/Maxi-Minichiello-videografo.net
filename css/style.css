@@ -102,7 +102,7 @@
 }
 @media screen and (max-width: 768px) {
   .navbar_propio {
-    width: 810px;
+    width: 768px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -113,8 +113,8 @@
 
 @media screen and (max-width: 768px) {
   .img_Logo {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
   }
 }
 
