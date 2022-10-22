@@ -111,6 +111,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .img_Logo {
+    width: 30%;
+    height: 30%;
+  }
+}
+
 .sobremi_imagen {
   align-items: center;
 }
