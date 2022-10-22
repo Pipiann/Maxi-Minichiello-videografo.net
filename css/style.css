@@ -172,11 +172,6 @@ h3 {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-@media screen and (max-width: 768px) {
-  .portfo_1 {
-    padding-left: 200px;
-  }
-}
 
 @media screen and (max-width: 460px) {
   .iframe_MediaQuerie {
@@ -235,6 +230,11 @@ body {
     padding: 50px;
   }
 }
+@media screen and (max-width: 1023px) and (max-width: 768px) {
+  .grid_content1 {
+    padding: 110px;
+  }
+}
 .grid_content2 {
   grid-area: content2;
 }
@@ -242,6 +242,12 @@ body {
   .grid_content2 {
     place-items: center;
     padding: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid_content2 {
+    padding: 110px;
+    padding-top: 10px;
   }
 }
 .grid_nav_ver {
