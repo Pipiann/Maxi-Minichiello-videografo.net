@@ -172,6 +172,11 @@ h3 {
   padding-bottom: 30px;
   padding-top: 30px;
 }
+@media screen and (max-width: 768px) {
+  .portfo_1 {
+    padding-left: 200px;
+  }
+}
 
 @media screen and (max-width: 460px) {
   .iframe_MediaQuerie {
