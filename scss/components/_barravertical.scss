@@ -61,6 +61,10 @@
         padding: 40px;
     
     }
+    @media screen and (max-width:480px) {
+      margin-left: 0%;
+      
+    }
 }
   
 
@@ -106,6 +110,8 @@
     display: inline;
     width: 320px;
     padding: 10px;
+    
+    
   }
     
   

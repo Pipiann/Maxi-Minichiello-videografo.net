@@ -7,7 +7,10 @@
         font-size: 28px;
         padding: 60px;
         @media screen  and (max-width:480px){
-            font-size: 12px;
+            font-size: 15px;
+            font-weight: bold;
+            padding-right: 70px;
+            padding-top: 100px;
             
         }
     }
@@ -16,7 +19,8 @@
                 
     }
     @media screen and (max-width: 480px){
-        width: 480px;
+        width: 460px;
+    
     }
     @media screen and (max-width:360px){
         width: 360px;
@@ -41,8 +45,8 @@
         
     }
     @media screen and (max-width:480px) {
-        width: 98%;
-        height: 98%;
+        width: 320px;
+        height: 300px;
         padding-left: 20%;
         
     }

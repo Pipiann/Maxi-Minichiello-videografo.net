@@ -43,11 +43,23 @@ body{
         row-gap: 1.5%;
         
     }
+    @media screen and (max-width:360px) {
+        grid-template-columns: 0.5fr;
+       
+        
+        
+    }
+
+
 
     &_header{
         background-color:$bg-principal;
         grid-area: header;
       align-self: flex-start;
+      @media screen and (max-width:360px) {
+        width: 360px;
+        
+      }
     }
     &_vline{
         
@@ -61,19 +73,20 @@ body{
         @media screen and (max-width:1023px) {
             place-items: center;
             padding: 50px;
+        }
         @media screen and (max-width:768px) {
             padding: 110px;
         }  
         @media screen and (max-width:480px){
             place-items: left;
-            padding-left: 0cm; ;
+            padding-left: 0cm; 
             
-        }    
-        
+        } 
+        @media screen and (max-width:360px){
+            width: 350px;
             
-        }
-              
-
+        } 
+          
     }
     &_content2{
         
@@ -92,13 +105,22 @@ body{
             place-items: left;
             padding-left: 0cm; ;
             
-        }    
+        }  
+        @media screen and (max-width:360px){
+            width: 350px;
+            
+        }   
     }
     &_nav_ver{
         
         grid-area: nav_ver;
         @media screen and (max-width:480px) {
             height: 30px;
+            padding-top: 30px;
+                    
+        }
+        @media screen and (max-width:360px) {
+            width: 360px;
             
         }
         
@@ -115,7 +137,7 @@ body{
         }
         @media screen and (max-width:360px) {
             bottom: 0px;
-            width: 100%;
+            width: 360px;
             
         }
 
@@ -165,8 +187,8 @@ footer{
         font-size: 85px;
     }
     @media screen and (max-width:480px) {
-        font-size: 2rem;
-        text-align:justify;
+        font-size: 3rem;
+        
     }
     
         

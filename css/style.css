@@ -50,6 +50,11 @@
   list-style-type: none;
   padding: 40px;
 }
+@media screen and (max-width: 480px) {
+  .nav_ul {
+    margin-left: 0%;
+  }
+}
 
 /* ---------------animacion redes sociales --------------------- */
 .icon:hover i {
@@ -102,7 +107,10 @@
 }
 @media screen and (max-width: 480px) {
   .navbar_propio_tipo {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 70px;
+    padding-top: 100px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -112,7 +120,7 @@
 }
 @media screen and (max-width: 480px) {
   .navbar_propio {
-    width: 480px;
+    width: 460px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -139,8 +147,8 @@
 }
 @media screen and (max-width: 480px) {
   .sobremi_imagen {
-    width: 98%;
-    height: 98%;
+    width: 320px;
+    height: 300px;
     padding-left: 20%;
   }
 }
@@ -174,6 +182,11 @@ h3 {
   padding: 20PX;
   font-family: "Libre Franklin", sans-serif;
 }
+@media screen and (max-width: 480px) {
+  .content1_contacto {
+    margin-top: 40px;
+  }
+}
 
 .btn_propio {
   background-color: #1b4332;
@@ -204,6 +217,18 @@ h3 {
   padding-left: 70px;
   padding-bottom: 30px;
   padding-top: 30px;
+}
+@media screen and (max-width: 360px) {
+  .portfo_1 {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .iframe_MediaQuerie {
+    width: 359px;
+    height: 202px;
+  }
 }
 
 * {
@@ -239,10 +264,20 @@ body {
     row-gap: 1.5%;
   }
 }
+@media screen and (max-width: 360px) {
+  .grid {
+    grid-template-columns: 0.5fr;
+  }
+}
 .grid_header {
   background-color: #d8f3dc;
   grid-area: header;
   align-self: flex-start;
+}
+@media screen and (max-width: 360px) {
+  .grid_header {
+    width: 360px;
+  }
 }
 .grid_vline {
   grid-area: vline;
@@ -256,15 +291,20 @@ body {
     padding: 50px;
   }
 }
-@media screen and (max-width: 1023px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .grid_content1 {
     padding: 110px;
   }
 }
-@media screen and (max-width: 1023px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .grid_content1 {
     place-items: left;
     padding-left: 0cm;
+  }
+}
+@media screen and (max-width: 360px) {
+  .grid_content1 {
+    width: 350px;
   }
 }
 .grid_content2 {
@@ -288,12 +328,23 @@ body {
     padding-left: 0cm;
   }
 }
+@media screen and (max-width: 360px) {
+  .grid_content2 {
+    width: 350px;
+  }
+}
 .grid_nav_ver {
   grid-area: nav_ver;
 }
 @media screen and (max-width: 480px) {
   .grid_nav_ver {
     height: 30px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .grid_nav_ver {
+    width: 360px;
   }
 }
 .grid_footer {
@@ -309,7 +360,7 @@ body {
 @media screen and (max-width: 360px) {
   .grid_footer {
     bottom: 0px;
-    width: 100%;
+    width: 360px;
   }
 }
 
@@ -359,8 +410,7 @@ footer h2 {
 }
 @media screen and (max-width: 480px) {
   .h1_index {
-    font-size: 2rem;
-    text-align: justify;
+    font-size: 3rem;
   }
 }
 
