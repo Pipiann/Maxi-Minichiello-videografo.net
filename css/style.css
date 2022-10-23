@@ -125,7 +125,7 @@
 }
 @media screen and (max-width: 360px) {
   .navbar_propio {
-    width: 360px;
+    width: 350px;
     flex-wrap: nowrap;
   }
 }
@@ -210,6 +210,12 @@ h3 {
   width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  .form_Propio {
+    margin-left: 50px;
+  }
+}
+
 .portfo_1 {
   justify-self: center;
   justify-items: center;
@@ -218,15 +224,10 @@ h3 {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-@media screen and (max-width: 360px) {
-  .portfo_1 {
-    width: fit-content;
-  }
-}
 
 @media screen and (max-width: 360px) {
   .iframe_MediaQuerie {
-    width: 359px;
+    width: 340px;
     height: 202px;
   }
 }
@@ -305,6 +306,8 @@ body {
 @media screen and (max-width: 360px) {
   .grid_content1 {
     width: 350px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 }
 .grid_content2 {

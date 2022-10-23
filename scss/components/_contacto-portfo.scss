@@ -34,6 +34,14 @@
     
 }
 
+.form_Propio{
+  @media screen and (max-width:480px) {
+    margin-left: 50px;
+
+    
+  }
+}
+
 .portfo_1{
     justify-self: center;
     justify-items: center;
@@ -41,17 +49,14 @@
     padding-left: 70px;
     padding-bottom: 30px;
     padding-top: 30px;
-  @media screen and (max-width:360px)   {
-    width: fit-content;
+  
     
-  }
-
-      
+       
 }
 
 .iframe_MediaQuerie{
   @media screen and (max-width:360px) {
-    width: 359px;
+    width: 340px;
     height: 202px; ;
     
   }
