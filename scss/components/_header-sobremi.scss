@@ -6,6 +6,10 @@
         color: $tipo-color;
         font-size: 28px;
         padding: 60px;
+        @media screen  and (max-width:480px){
+            font-size: 12px;
+            
+        }
     }
     @media screen and (max-width: 768px) {
         width: 750px;
@@ -13,6 +17,11 @@
     }
     @media screen and (max-width: 480px){
         width: 480px;
+    }
+    @media screen and (max-width:360px){
+        width: 360px;
+        flex-wrap: nowrap;
+          
     }
 }
 
@@ -31,6 +40,12 @@
         place-items: center;
         
     }
+    @media screen and (max-width:480px) {
+        width: 98%;
+        height: 98%;
+        padding-left: 20%;
+        
+    }
 }
 h3{
     font-family: $font-sec;
@@ -42,6 +57,13 @@ h3{
     @media screen and (max-width:768px) {
         text-align: center;
         font-size: 22px;
+        padding-top: 5px;
+        
+    }
+    @media screen and (max-width:480px) {
+        text-align: center;
+        font-size: 18px;
+        padding-left: 20%;
         padding-top: 5px;
         
     }

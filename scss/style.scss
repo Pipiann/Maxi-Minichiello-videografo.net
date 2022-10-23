@@ -39,7 +39,8 @@ body{
     }
     @media screen and (max-width:480px) {
         grid-template-columns: 0.5fr;
-        row-gap: 10%;
+       
+        row-gap: 1.5%;
         
     }
 
@@ -62,8 +63,13 @@ body{
             padding: 50px;
         @media screen and (max-width:768px) {
             padding: 110px;
+        }  
+        @media screen and (max-width:480px){
+            place-items: left;
+            padding-left: 0cm; ;
             
-        }
+        }    
+        
             
         }
               
@@ -82,10 +88,19 @@ body{
             padding-top: 10px;
             
         }
+        @media screen and (max-width:480px){
+            place-items: left;
+            padding-left: 0cm; ;
+            
+        }    
     }
     &_nav_ver{
         
         grid-area: nav_ver;
+        @media screen and (max-width:480px) {
+            height: 30px;
+            
+        }
         
         
     }
@@ -98,7 +113,7 @@ body{
             width: 100%;
             
         }
-        @media screen and (max-width:576px) {
+        @media screen and (max-width:360px) {
             bottom: 0px;
             width: 100%;
             
@@ -150,7 +165,8 @@ footer{
         font-size: 85px;
     }
     @media screen and (max-width:480px) {
-        font-size: 4rem;
+        font-size: 2rem;
+        text-align:justify;
     }
     
         

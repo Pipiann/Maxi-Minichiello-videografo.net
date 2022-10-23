@@ -87,7 +87,7 @@
   .barra_mediagrid {
     display: inline;
     width: 320px;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -100,6 +100,11 @@
   font-size: 28px;
   padding: 60px;
 }
+@media screen and (max-width: 480px) {
+  .navbar_propio_tipo {
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 768px) {
   .navbar_propio {
     width: 750px;
@@ -108,6 +113,12 @@
 @media screen and (max-width: 480px) {
   .navbar_propio {
     width: 480px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .navbar_propio {
+    width: 360px;
+    flex-wrap: nowrap;
   }
 }
 
@@ -126,6 +137,13 @@
     place-items: center;
   }
 }
+@media screen and (max-width: 480px) {
+  .sobremi_imagen {
+    width: 98%;
+    height: 98%;
+    padding-left: 20%;
+  }
+}
 
 h3 {
   font-family: "Libre Franklin", sans-serif;
@@ -138,6 +156,14 @@ h3 {
   h3 {
     text-align: center;
     font-size: 22px;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 20%;
     padding-top: 5px;
   }
 }
@@ -180,13 +206,6 @@ h3 {
   padding-top: 30px;
 }
 
-@media screen and (max-width: 460px) {
-  .iframe_MediaQuerie {
-    width: 40%;
-    height: 70%;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -217,7 +236,7 @@ body {
 @media screen and (max-width: 480px) {
   .grid {
     grid-template-columns: 0.5fr;
-    row-gap: 10%;
+    row-gap: 1.5%;
   }
 }
 .grid_header {
@@ -242,6 +261,12 @@ body {
     padding: 110px;
   }
 }
+@media screen and (max-width: 1023px) and (max-width: 480px) {
+  .grid_content1 {
+    place-items: left;
+    padding-left: 0cm;
+  }
+}
 .grid_content2 {
   grid-area: content2;
 }
@@ -257,8 +282,19 @@ body {
     padding-top: 10px;
   }
 }
+@media screen and (max-width: 480px) {
+  .grid_content2 {
+    place-items: left;
+    padding-left: 0cm;
+  }
+}
 .grid_nav_ver {
   grid-area: nav_ver;
+}
+@media screen and (max-width: 480px) {
+  .grid_nav_ver {
+    height: 30px;
+  }
 }
 .grid_footer {
   grid-area: footer;
@@ -270,7 +306,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 360px) {
   .grid_footer {
     bottom: 0px;
     width: 100%;
@@ -323,7 +359,8 @@ footer h2 {
 }
 @media screen and (max-width: 480px) {
   .h1_index {
-    font-size: 4rem;
+    font-size: 2rem;
+    text-align: justify;
   }
 }
 
