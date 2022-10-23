@@ -277,7 +277,7 @@ body {
 }
 @media screen and (max-width: 360px) {
   .grid_header {
-    width: 360px;
+    width: 355px;
   }
 }
 .grid_vline {
@@ -363,7 +363,7 @@ body {
 @media screen and (max-width: 360px) {
   .grid_footer {
     bottom: 0px;
-    width: 360px;
+    width: 350px;
   }
 }
 
