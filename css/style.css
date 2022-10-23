@@ -383,6 +383,11 @@ footer h2 {
     text-align: center;
   }
 }
+@media screen and (max-width: 360px) {
+  footer h2 {
+    font-size: 15px;
+  }
+}
 
 .footerLink {
   text-decoration-line: none;
