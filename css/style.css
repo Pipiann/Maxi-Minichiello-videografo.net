@@ -92,7 +92,7 @@
   .barra_mediagrid {
     display: inline;
     width: 320px;
-    padding: 10px;
+    padding: 7px;
   }
 }
 
@@ -184,7 +184,7 @@ h3 {
 }
 @media screen and (max-width: 480px) {
   .content1_contacto {
-    margin-top: 35px;
+    margin-top: 15px;
   }
 }
 
